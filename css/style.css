@@ -23,3 +23,26 @@ li{
 a{
     text-decoration: none;
 }
+.footer{
+    text-align: center;
+    background-color: #0F1115;
+    align-self: baseline;
+}
+fieldset{
+    line-height: 25px;
+    margin: 15px;
+    text-align: center;
+    border-color: #F7C594;
+}
+fieldset>button{
+    background-color: #F7C594;
+    color: #0F1115;
+    border-radius: 5px;
+    padding: 3px;
+}
+#copyright{
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    vertical-align: middle;
+}
