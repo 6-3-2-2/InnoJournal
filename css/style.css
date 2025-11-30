@@ -2,8 +2,8 @@
     margin: 0%;
     border: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0F1115;
-    color: #eae2d1;
+    background-color: #2d3236;
+    color: #b6f6f0;
 
 }
 .header{
@@ -23,11 +23,9 @@ li{
 a{
     text-decoration: none;
 }
-.body { 
-    display: grid;
-    grid-template-rows: auto 1fr auto; 
-    min-height: 100dvh; 
+.body {  
     text-align: center;
+    padding: 30px;
 }
 .intro{
     padding: 15px;
@@ -50,32 +48,39 @@ a{
     height: inherit;
     margin-top: 25px;
 }
-.intro>button{
-    width: 150px;
-    align-items: center;
-    text-align: center;
-}
 #explore-projects, #read-journal{
+    align-self: center;
+    text-align: center;
     margin: 10px;
     padding: 10px;
-    background-color: #F7C594;
-    color: #0F1115;
+    border-color: #b6f6f0;
+    background-color: #2d3236;
     border-radius: 5px;
+}
+.about{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+.about > h2{
+    margin-bottom: 15px;
 }
 .footer{
     text-align: center;
-    background-color: #0f1115;
+    background-color: #2d3236;
+    display: block;
 
 }
 fieldset{
     line-height: 25px;
     margin: 15px;
     text-align: center;
-    border-color: #F7C594;
+    border-color: #b6f6f0;
 }
 fieldset>button{
-    background-color: #F7C594;
-    color: #0F1115;
+    background-color: #b6f6f0;
+    color: #2d3236;
     border-radius: 5px;
     padding: 3px;
 }
